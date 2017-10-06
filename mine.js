@@ -23,6 +23,7 @@ function Mine(x, y, n) {
     _this = this;
     this.start = function() {
         this.log('start()');
+	alert('做一个小东西献给我的小宠物~');
         $('#container').html('');
         this.generate();
         $('.box').click(function() {
